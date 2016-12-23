@@ -4,6 +4,7 @@ body {
 
 #page-tittle {
     font-size: 2em;
+    margin-bottom: 40px;
 }
 
 #header-nav {
@@ -92,6 +93,10 @@ body {
 
 .navbar-default .navbar-toggle:hover {
     background-color: transparent;
+}
+
+#row-content {
+    margin: 0px 0px;
 }
 
 /* MEDIA */
