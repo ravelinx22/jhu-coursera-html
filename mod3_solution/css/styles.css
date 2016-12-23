@@ -1,0 +1,129 @@
+body {
+    color: black;
+}
+
+#page-tittle {
+    font-size: 2em;
+}
+
+#header-nav {
+    background-color: #999999;
+    border-radius: 0;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 0;
+    border-left: 0;
+}
+
+.navbar-brand h1 {
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+
+#collapsable-nav {
+    padding: 0;
+}
+
+#row-content {
+    background-color: #999999;
+    margin: 30px 20px;
+}
+
+#main-content h1 {
+    font-size: 1.5em;
+}
+
+.navbar-brand  {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+#main-content h1 {
+    margin-top: 4px;
+}
+
+.navbar-brand h1 {
+    font-size: 1.4em;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+#collapsable-nav hr {
+    border: 1px solid black;
+    background-color: black;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-toggle  {
+    height: 45px;
+    margin: 20px 15px 0px 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 45px;
+}
+
+.navbar-toggle .icon-bar  {
+    height: 5px;
+    width: auto;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: lightgrey;
+}
+
+
+.navbar-default .navbar-toggle  {
+    border-color: black;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+    border-color: lightgray;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+/* MEDIA */
+
+/* Large */
+@media (min-width:1200px) {
+    
+}
+
+/* Medium */
+@media (min-width:992px) and (max-width:1199px) {
+    
+}
+
+/* Small */
+@media (min-width: 768) and (max-width: 991px) {
+    
+}
+
+/* Extra small */
+@media (max-width: 767px) {
+    #main-content {
+        background-color: #999999;
+        margin: 30px 60px;
+    }
+    
+    .navbar-brand h1 {
+        margin-left: 40px;
+    }
+    
+    #collapsable-nav {
+    border-top: 2px solid black;
+        background-color: white;
+}
+}
